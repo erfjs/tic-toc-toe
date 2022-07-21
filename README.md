@@ -1,4 +1,4 @@
-# React Todo List
+# React Tic-Toc-Toe
 A Tic-Toc-Toe app powered by Vite
 
 ##### [Live Demo](https://tic-toc-toe.erfjs.com/) on Netlify
