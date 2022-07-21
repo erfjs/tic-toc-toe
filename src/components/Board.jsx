@@ -1,7 +1,6 @@
 import React from 'react';
 import Square from './Square';
 
-// Functional Component that handles the overall BOARD
 
 const Board = ({ board, handleSquareEvent, winningSquare }) => {
   // Updating the position whenever clicked
@@ -10,7 +9,6 @@ const Board = ({ board, handleSquareEvent, winningSquare }) => {
     const isWinningSquare = winningSquare.includes(position);
     return (
       <Square
-        // Props value to the Square
         value={board[position]}
         onClick={() => handleSquareEvent(position)}
         isWinningSquare={isWinningSquare}
